@@ -34,7 +34,7 @@ gem 'dropzonejs-rails'
 
 # for seacret
 gem 'figaro', "~> 1.1.0"
-
+gem 'pg'
 group :production do
   gem 'pg'
   gem 'rails_12factor'
